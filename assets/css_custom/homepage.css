@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Caveat&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+.carousel{
+	margin-top: -65px;	
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 240px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 75%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+
+.navbar-homepage{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.664), rgba(63, 62, 62, 0.103));
+	height: 65px;
+	z-index: 100;
+}
+.navbar-homepage .navbar-brand{
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-homepage a.navbar-brand:hover{
+	color: gray;	
+}
+.navbar-homepage img, .logo-karamatwangi{
+	width: 250px;
+	height: 70px;
+	margin-top: -5px;
+}
+.navbar-link a{
+	text-decoration: none;
+}
+.navbar-homepage .navbar-link a:hover{
+	color: gray;
+}
+ul.ul-homepage{
+	margin-top: 20px;
+	margin-left: 100px;	
+}
+ul.ul-homepage li{
+	display: inline-block;	
+	height: 40px;
+
+	border-radius: 40px;
+}
+ul.ul-homepage li:hover{
+	background-color: #e0e6f6;	
+}
+ul.ul-homepage li a.nav-link{
+	color: white;
+}
+
+
+
+.container-fluid .judul{
+	position: absolute;
+	top: 65px;
+	left: 0;
+	width: 100%;
+	height: calc(100vh - 65px);	
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.664), rgba(63, 62, 62, 0.103));
+}
+.container-fluid .judul-2{	
+	color: rgb(231, 229, 229);
+	margin-left: 100px;
+	margin-top: 150px;
+}
+.container-fluid .judul-2 h1{
+	font-family: 'Marck Script', cursive;
+	font-size: 95px;	
+}
+.container-fluid .judul-2 p{
+	font-family: 'Balsamiq Sans', cursive;
+	margin-left: 0px;
+	font-size: 20px;
+}
+.container-fluid .judul-2 p:nth-child(1){
+	font-family: 'Balsamiq Sans', cursive;
+	margin-left: 50px;	
+	font-size: 20px;
+}
+
+.berita-desa{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	overflow: auto;
+}
+.card-berita{
+	display: inline-block;
+	margin-bottom: 5px;
+	width:18rem;
+	margin: 5px;
+	cursor: pointer;		
+}
+.card.berita:hover{	
+	background-color: black;
+}
+.card-berita img{
+	height: 200px;
+}
+
+#tanggal-berita{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgb(210, 211, 211);
+	width: 150px;
+	height: 30px;
+	border-bottom-left-radius: 50px;	
+	padding: 2px;
+}
+
+/* custom */
+
+.search-homepage{
+    position: absolute;
+    top: 80px;    	
+    width: 100%;		
+	margin: 0 auto;
+    background: transparent;
+    z-index: 100;    
+	height: 65px;
+}
+
+.search-homepage form{
+	width: 70%;
+	border: 1px solid gray;
+	border-radius: 45px;
+	margin: 0 auto;
+}
+
+.search-homepage input{	    
+	margin-left: 20px;
+    width: 90%;
+    background: rgba(109, 107, 107, 0.226);
+    border: 1px solid gray;
+    height: 45px;    
+	border: none;
+	outline: none;
+	color: white;
+	background-color: transparent;
+}
+.search-homepage input::placeholder{
+	color:white;
+}
+#btn-search {
+    position: absolute;
+    top: 5px;
+    right: 16%;
+}
+.search-homepage .fa-search{
+    color: white;
+}
+
+.menu-homepage{    
+    position: relative;
+    background: white;
+    margin: 0 auto;        
+    width: 100%;    
+    border-radius: 0px;	
+}
+.menu-homepage .card{
+    background: white;    
+    border-radius: 5px;    
+}
+#image-menu-homepage{
+    height: 80px;
+    width: 110px;
+    margin-bottom: 20px;
+}
+.menu-homepage .dropdown-item{
+	border-bottom: 1px solid gainsboro;
+}
+.card-body.daftar-bansos-homepage{
+	overflow: auto;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.footer-homepage{
+	height: 100px;
+	margin-top: 100px;
+	background: lime;
+}
+.footer-homepage p{
+	margin-top: 50px;
+}
+.footer-homepage2{
+	height: 80px; 
+	margin-top: 100px;	
+}
+
+/* login */
+.login-homepage img{
+	width: 100%;
+	height: 100%;
+}
+.login-homepage .col-lg-6 .card{
+	border-radius: 20px;
+	border: none;
+	border: 1px solid #5299e7;
+}
+.login-homepage button{
+	background: #5299e7;
+	border: none;
+	color: white;
+}
+.icon-lock-login{
+	font-size: 25px;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;	
+	color: #5299e7;	
+	border: 2px solid #5299e7;
+	border-radius: 50px;
+	background: transparent;	
+	background: white;
+	margin-top: -23px;
+}
+.icon-lock-login .fa-lock{		
+	width: 100%;
+	margin-top: 20%;
+}
+
+
+/* Halaman Penerima Bansos ID */
+.card-penerima-bantuan-id{
+	border-left: 4px solid green;
+	 line-height: 22px;
+}
+
+.status-pengambilan-bansos{
+	display: none;	
+}
+.status-pengambilan-bansos.btn{
+	display: inline-block;	
+}
+
+@media only screen and (max-width:1200px){
+	.status-pengambilan-bansos.btn{
+		display: inline-block;
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width:992px){
+	.status-pengambilan-bansos.btn{
+		display: none;		
+	}
+	.status-pengambilan-bansos{
+		display: inline-block;		
+	}
+	.nama-bansos-id, .periode-bansos-id, .tempat-pengambilan-id{		
+		float: right;
+	}
+	.footer-homepage2{
+		margin-top: 250px;
+		font-size: 15px;
+	}
+	.footer-homepage .col-lg-6{
+		margin-left: 15px;
+	}
+	.footer-homepage .col-lg-6:nth-child(2){
+		margin-top: 20px;		
+	}
+}
+
+@media only screen and (max-width:540px)
+{
+	.navbar-ul li{
+		display: inline;		
+	}
+	#carousel-indicators{		
+	position: absolute;
+	top: 300px;
+	left: 0;
+	height: 10px;
+	}	
+	.menu-homepage{
+		margin-top: -350px;
+	}
+	.search-homepage{
+		display: none;
+	}
+	
+	.berita-desa .card{
+		display: inline-block;
+		margin-bottom: 5px;
+		width:18rem;
+	}
+	.container-fluid .judul{
+		height: 200px;		
+	}
+	.container-fluid .judul-2 h1{
+		font-family: 'Marck Script', cursive;
+		font-size: 35px;			
+	}
+	.container-fluid .judul-2 p{
+		font-family: 'Balsamiq Sans', cursive;
+		margin-left: 10px;
+		font-size: 20px;
+	}
+}
